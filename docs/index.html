@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SlideTest</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./splide.min.css">
+  <link rel="stylesheet" href="./minamiuonuma.css">
+  <link rel="stylesheet" href="./responsive.css">
+  <link rel="stylesheet" href="./bootstrap.min.css">
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ </head>
+ <body>
+<div class="wrap">
+
+<!-- header -->
+<header>
+  <div class="header-wrapper">
+    <ul class = "item-lists z-index70">
+      <li class="item-left">
+        <div class="menu-icon icon "><i class="fas fa-bars fa-2x" id="menu-show"></i></div>
+        <a class="instagram-icon icon" href="https://www.instagram.com/shotaro_kamimura/"><i class="fab fa-instagram fa-2x"></i></a>
+      </li>
+    </ul>
+  </div>
+
+<!-- modal menu  -->
+  <div class="modal-wrapper z-index100">
+    <div class="modal-menu">
+      <ul class="items">
+        <li id="menu-close"><i class="fas fa-window-close"></i></li>
+        <li>menu1</li>
+        <li>menu2</li>
+        <li>menu3</li>
+        <li>menu4</li>
+        <li>menu5</li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+
+<!-- home -->
+<section class="home-wrapper">
+   <div id="image-slider" class="splide z-index50">
+   	<div class="splide__track ">
+   		<ul class="splide__list ">
+   			  <li class="home-slide-item splide__slide "  style="width: 100%; background: url(./photos/img1.jpg;); ">
+   				<img src="./photos/img1.jpg">
+   			</li>
+   			  <li class="home-slide-item splide__slide "   style="width: 100%; background: url(./photos/img2.jpg;); ">
+   				<img src="./photos/img2.jpg">
+   			</li>
+   			  <li class="home-slide-item splide__slide "  style="width: 100%; background: url(./photos/img3.jpg;); ">
+   				<img src="./photos/img3.jpg">
+   			</li>
+   		</ul>
+   	</div>
+   </div>
+   <div class="message z-index70">
+     <p>Sharing beautiful experiences</p>
+     <p>in the local area of Japan</p>
+   </div>
+   <div class="vertical-right vertical z-index70">
+     <p>--- SCROLL ---</p>
+   </div>
+</section>
+
+<!--About-->
+<section class="about-wrapper ">
+  <div class="about-content">
+    <div class="about-items row">
+      <div class="about-img col-xs-10 col-sm-10 col-md-9 col-lg-8">
+        <figure class="about-fig"><img src="./photos/snow.jpg"></figure>
+      </div>
+      <div class="about-messages ">
+        <div class="about-message-wrapper">
+          <div class="about-message fs-about">Nature is beautiful.
+            <br>Every moments nature gives us
+            <br>full of inspiration.
+          </div>
+          <div class="about-btn-wrapper">
+            <div class="about-btn-01">
+              <a class="btn" href="#">
+                <span>ABOUT</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--Movie section 1-->
+<section id="movie-split-wrapper">
+<div class="flexbox">
+    <div id="movie1Wrap">
+      <div id="movie1" data-property="{
+          videoURL: 'XVpm5hFlvdc',　
+          containment: '#movie1Wrap',
+          autoPlay: true,
+          loop: 1,　
+          mute: true,
+          startAt: 33,
+          showControls: false,
+          showYTLogo: false
+      }"></div>
+    </div>
+  <div class="camping">
+  </div>
+</div>
+</section>
+
+<!--Movie section 2-->
+<section class="movie-split-wrapper2 mg-b150">
+  <div class="flexbox reverse">
+      <div class="camping2">
+      </div>
+      <div id="movie2Wrap">
+        <div id="movie2" data-property="{
+            videoURL: 'XVpm5hFlvdc',　
+            containment: '#movie2Wrap',
+            autoPlay: true,
+            loop: 1,　
+            mute: true,
+            startAt: 145,
+            showControls: false,
+            showYTLogo: false
+        }"></div>
+      </div>
+</section>
+
+<!-- lifestyle headline -->
+<section class="lifestyle mg-b150">
+  <div class="container">
+    <div class="lifestyle-headline">
+      <div class="lifestyle-headline-wrap">
+        <h2 class="lifestyle-headline-title ft-s48-en mg-b10">LIFESTYLE</h2>
+        <p class="lifestyle-headline-title-p ft-s30">Beautiful moments in Minamiuonuma,Japan.
+        <br class="lifestyle-headline-title-p">It's just amazing.</p>
+      </div>
+    </div>
+
+    <!-- lifestyle -->
+    <ul class="lifestyle-items">
+      <li class="lifestyle-item">
+        <figure class="lifestyle-fig">
+          <img src="./photos/lifestyle1.jpg" alt="Culture">
+          <figcaption class="lifestyle-caption ">CULTURE</figcaption>
+        </figure>
+        <div class="lifestyle-copywrap">
+          <div class="lifestyle-title ft-s20">Traditional Fablic</div>
+          <div class="lifestyle-copy ft-s14">There is a long history of textile-making in Minamiuonuma area and beautiful nature environment enables people to prepare high quality fablics for Japanese Kimono.</div>
+        </div>
+      </li>
+      <li class="lifestyle-item">
+        <figure class="lifestyle-fig">
+          <img src="./photos/lifestyle2.jpg" alt="Mountains">
+          <figcaption class="lifestyle-caption">MOUNTAINS</figcaption>
+        </figure>
+        <div class="lifestyle-copywrap">
+          <div class="lifestyle-title ft-s20">Hiking</div>
+          <div class="lifestyle-copy ft-s14">There are a lot of mountains here and also few people compared to hiking area in Kanto area. Definitely nice to cultivate your favorite area.</div>
+        </div>
+      </li>
+      <li class="lifestyle-item">
+        <figure class="lifestyle-fig">
+          <img src="./photos/lifestyle3.jpg" alt="camping">
+          <figcaption class="lifestyle-caption ">CAMPING</figcaption>
+        </figure>
+        <div class="lifestyle-copywrap">
+          <div class="lifestyle-title ft-s20">Camping</div>
+          <div class="lifestyle-copy ft-s14">Camping in Minamiuonuma area is definitely awesome experience. Time passes so differently when spending time in nature.</div>
+        </div>
+      </li>
+      <li class="lifestyle-item">
+        <figure class="lifestyle-fig">
+          <img src="./photos/lifestyle4.jpg" alt="skiing">
+          <figcaption class="lifestyle-caption ">SKIING</figcaption>
+        </figure>
+        <div class="lifestyle-copywrap">
+          <div class="lifestyle-title ft-s20">Skiing</div>
+          <div class="lifestyle-copy ft-s14">Immersing in the white world and Expressing the style, just amazing.</div>
+        </div>
+      </li>
+      <li class="lifestyle-item">
+        <figure class="lifestyle-fig">
+          <img src="./photos/lifestyle5.jpg" alt="cloud sea">
+          <figcaption class="lifestyle-caption ">CLOUD SEA</figcaption>
+        </figure>
+        <div class="lifestyle-copywrap">
+          <div class="lifestyle-title ft-s20">Cloud Sea</div>
+          <div class="lifestyle-copy ft-s14">I was so lucky that I was in this moment. Nature gave me surpurising gift to me.</div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- Nature & Us -->
+<section class="recommend-wrapper mg-b150">
+  <div class="rec-container container">
+    <div class="recommend-headline">
+      <div class="recommend-headline-wrap">
+        <h2 class="recommend-headline-title ft-s48-en mg-b10">NATURE & US</h2>
+        <p class="recommend-headline-copy ft-s20">We are part of nature.
+          <br>The more we live in harmony with nature, The better we live well.
+          <br>And we have the power of choise for our lifestyle.</p>
+      </div>
+    </div>
+  </div>
+
+<!-- minamiuonuma & nature -->
+<div class="vertical-wrapper mg-b150">
+  <div class="vertical-items row">
+    <div class="vertical-item col-md-2 col-sm-0 col-xs-0">
+      <h2 class="vertical-title pd-lr10 ft-s60-en din-bold">NATURE<br>& CREATIVITY</h2>
+    </div>
+    <div class="vertical-item col-md-5 col-sm-6 col-xs-7">
+      <p class="vertical-copy pd-lr10 ft-s16">Nature gives humans creativity.
+      In history, humans got ideas from nature, accumulated knowledge, and developed technology.
+      Technology is essential to establish this modern civilization.
+      <br><br>Humans get inspired art and design of nature. Nature gives us the sense of beauty, this is amazing.
+      It's always nice to enjoy the gift from nature. Color, patterns, space, moves, any aspects of nature
+      gives us ideas and makes us think richer.
+      <br><br>Nature also might be helped to reduce humans stress and helps to think creative. Nature is essential
+      for human being to think well.
+    </p>
+    </div>
+    <div class="vertical-vs-item col-md-5 col-sm-6 col-xs-5">
+      <figure class="vertical-vs-fig"><img src="./photos/minamiuonumaandnature.jpg" alt=""></figure>
+    </div>
+  </div>
+</div>
+
+<!-- Nature & Wellbeing -->
+<div class="vertical2-wrapper">
+  <div class="vertical2-items row">
+    <div class="vertical2-item col-md-2 col-sm-0">
+      <h2 class="vertical2-title ft-s60-en pd-lr10">NATURE<br>& WELLBEING</h2>
+    </div>
+    <div class="vertical2-item col-md-5 col-sm-6">
+      <p class="vertical2-copy pd-lr10　ft-s16">There are so much information anywhere.
+      On our smartphone, TV, Advertisement on buildings, there are so much.
+      We might even miss opportunities that look closely at our emotion
+      because of processing information from outside too much.
+      Nature gives opportunities to let people look at themselves and recognize
+      what is really important in our life.
+      <br><br>Nature also helps us to improve wellbeing in terms of emotion and physical condition.
+      It reduces anxiey and stress. Also people can improve their health through nature activities.
+      Even people can spend great time with others, so it's important to build strong connection with others too.
+      <br><br>What's futures lifestyle? the world moves on so fast and sometimes people felt like left behind and gets streesed.
+      It might be needed to be in nature to look deeply into the world and yourself.
+      </p>
+    </div>
+    <div class="vertical2-vs-item col-md-5 col-sm-6">
+      <figure class="vertical2-vs-fig"><img src="./photos/wellbeing.jpg" alt=""></figure>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- scroll -->
+<div class="scroll_to_top z-index20">
+  <p>--- PAGE TOP ---</p>
+</div>
+
+<!-- footer -->
+<footer class="footer" role="footer">
+<div class="footer-wrap">
+  <div class="footer-items ">
+    <div class="footer-item col-md-12">
+      <div class="footer-copy ft-s14">
+        <p>- Built by Shotaro Kamimura -</p>
+      </div>
+    </div>
+  </div>
+</div>
+</footer>
+
+<script src="./minamiuonuma.js"></script>
+<script src="./splide.min.js"></script>
+<script src="./jquery.mb.YTPlayer.min.js"></script>
+
+<script>
+  new Splide( '.splide', {
+    type   : 'fade',
+    height: '900px',
+    //- height: '100vh',
+    arrows     : false,
+    cover      : true,
+    autoplay   : true,
+  } ).mount();
+</script>
+
+</div>
+ </body>
+</html>

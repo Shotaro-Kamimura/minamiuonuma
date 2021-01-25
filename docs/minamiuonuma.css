@@ -1,0 +1,527 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+
+body {
+  line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+  display:block;
+}
+
+nav ul {
+  list-style:none;
+}
+
+blockquote, q {
+  quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content:'';
+  content:none;
+}
+
+a {
+  margin:0;
+  padding:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color:#ff9;
+  color:#000;
+  text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color:#ff9;
+  color:#000;
+  font-style:italic;
+   font-weight:bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom:1px dotted;
+  cursor:help;
+}
+
+table {
+  border-collapse:collapse;
+  border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display:block;
+  height:1px;
+  border:0;
+  border-top:1px solid #cccccc;
+  margin:1em 0;
+  padding:0;
+}
+
+input, select {
+  vertical-align:middle;
+}
+
+
+
+/* Starts from here  */
+html body {
+  margin:0;
+  padding:0;
+  font-family: "futura";
+}
+
+.wrap {
+	overflow: hidden;
+}
+
+
+.icon {
+  color:white;
+  height:0;
+}
+
+.mg-b150{
+  margin-bottom: 150px;
+}
+
+.mg-b10{
+  margin-bottom:10px;
+}
+
+.ft-s48-en{
+  font-size:48px;
+}
+
+.ft-s30{
+  font-size:30px;
+}
+
+.ft-s20{
+  font-size:20px;
+}
+
+.ft-s14{
+  font-size:14px;
+}
+
+.z-index100{
+  z-index:100;
+}
+
+.z-index70{
+  z-index:70;
+}
+
+.z-index50{
+  z-index:50;
+}
+
+.z-index40{
+  z-index:40;
+}
+
+.z-index20{
+  z-index:20;
+}
+
+/* header */
+.item-lists {
+    width: 100%;
+    max-width: 1680px;
+    position: fixed;
+    top: 60px;
+}
+
+.change-color{
+    color: #AFB1A2;
+}
+
+.item-left{
+    display: flex;
+}
+
+.menu-icon{
+  margin-right:25px;
+}
+
+.instagram-icon{
+  cursor: pointer;
+}
+
+
+/* modal */
+.modal-wrapper {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display:none;
+}
+
+.modal-menu{
+  color:white;
+  height:900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-menu li{
+  list-style: none;
+  font-size:30px;
+}
+
+.fa-bars {
+  cursor: pointer;
+}
+
+#menu-close{
+  cursor: pointer;
+}
+
+
+/* main */
+.splide__track{
+
+}
+
+.message{
+  position: absolute;
+  bottom:200px;
+  left:10%;
+}
+
+.message p{
+  color:white;
+  font-size:30px;
+}
+
+.about-wrapper{
+  margin-top:100px;
+}
+
+.vertical{
+  writing-mode: vertical-rl;
+  position:absolute;
+  bottom:100px;
+  right:5%;
+}
+
+.vertical p{
+  color:white;
+}
+
+
+.about-wrapper{
+  height:900px;
+  margin-top:150px;
+  position:relative;
+}
+
+.about-items{
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.about-img{
+  height:auto;
+
+}
+
+.about-fig img{
+  width:110%;
+}
+
+
+.about-messages{
+    position:absolute;
+    height:auto;
+    margin-left:60%;
+    padding:100px 0 50px 0;
+}
+
+.fs-about{
+  font-size: 30px;
+  line-height:1.5;
+  color:#AFB1A2;
+}
+
+
+.about-btn-wrapper{
+  padding-top:20px;
+
+}
+
+.btn{
+  color:#AFB1A2 !important;
+  border:2px solid #AFB1A2 !important;
+  width:20%;
+}
+
+
+.btn:hover {
+  background: #AFB1A2;
+  color: white !important;
+}
+
+
+
+/* movie split */
+
+
+p {
+  text-align: left;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  padding:0;
+}
+
+#movie1Wrap{
+  position: relative;
+  height: 550px;
+  width: 50%;
+}
+
+#movie2Wrap{
+  position: relative;
+  height: 550px;
+  width: 50%;
+}
+
+.flexbox {
+  margin: 0 auto;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.camping{
+  width:50%;
+  background-image:url('./photos/camping.jpg');
+  background-size: cover;
+  padding:0;
+}
+
+.camping2{
+  width:50%;
+  background-image:url('./photos/camping2.jpg');
+  background-size: cover;
+  padding:0;
+}
+
+
+
+
+
+
+
+
+
+/* Lifestyle part */
+.container{
+  max-width:1200px;
+  width:100%;
+  margin-left:auto;
+  margin-right:auto;
+  padding: 0 15px;
+  margin:0 30px;
+}
+
+.lifestyle-headline{
+  display:flex;
+  justify-content: flex-end;
+}
+
+.lifestyle-headline h2{
+  letter-spacing: 5px;
+}
+
+.lifestyle-headline-title{
+  margin-bottom:10px;
+}
+
+.ft-s48-en{
+  font-size:48px;
+}
+
+.lifestyle-items {
+  display:flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.lifestyle-item{
+  margin-top:120px;
+  margin-left:60px;
+  width:25%;
+  vertical-align:top;
+}
+
+.lifestyle-item:nth-of-type(1) {
+  margin-top:0px;
+}
+
+.lifestyle-item:nth-of-type(3) {
+  margin-top:240px;
+}
+
+.lifestyle-item:nth-of-type(4) {
+  margin-top:-120px;
+}
+
+.lifestyle-item:nth-of-type(5) {
+  margin-top:-10px;
+}
+
+
+
+
+.lifestyle-fig{
+  position:relative;
+
+}
+
+.lifestyle-caption{
+  writing-mode: vertical-rl;
+  position:absolute;
+  top:0;
+  left:100%;
+   color:#AFB1A2;
+}
+
+.lifestyle-title{
+  padding:10px 0;
+}
+
+.lifestyle-copy{
+  line-height:1.5;
+}
+
+
+
+/* vertical for Japanese */
+.recommend-headline-title{
+  letter-spacing: 5px;
+}
+
+.recommend-headline-copy{
+  line-height:2.0;
+}
+
+
+/* vertical for Japanese */
+.vertical-wrapper{
+  margin-top:120px;
+}
+
+
+.vertical-items{
+  flex-flow: row-reverse;
+}
+
+
+.vertical-title{
+  writing-mode: vertical-rl;
+  font-size:45px;
+  padding-left:60px;
+  letter-spacing: 10px;
+  height:600px;
+  color:#AFB1A2;
+}
+
+.vertical-copy{
+  line-height: 2.0;
+  padding-left:60px;
+}
+
+/* vertical2 for Japanese */
+.vertical2-item:nth-of-type(1){
+  display:flex;
+  justify-content:flex-end;
+}
+
+.vertical2-title{
+  writing-mode: vertical-rl;
+  font-size:45px;
+  padding-right:40px;
+  letter-spacing: 10px;
+  height:600px;
+  color:#AFB1A2;
+}
+
+.vertical2-copy{
+  line-height: 2.0;
+  padding-right:60px;
+}
+
+.vertical2-vs-items{
+  justify-content: flex-end;
+}
+
+/* vertical2 for Japanese */
+.scroll_to_top{
+  cursor: pointer;
+  position:fixed;
+  right:5%;
+  bottom:80px;
+
+}
+
+.scroll_to_top p{
+  writing-mode: vertical-rl;
+  color:#AFB1A2;
+}
+
+
+/* footer */
+.footer{
+  height:120px;
+}
+
+.footer-copy p{
+  text-align:center;
+}

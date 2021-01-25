@@ -1,0 +1,359 @@
+@media ( min-width : 600px ){
+  .movie-split-wrapper {
+    background: linear-gradient(90deg, #000000 50%, #000000 50%);
+  }
+  .movie-split-wrapper2{
+      background: linear-gradient(90deg, #000000 50%, #000000 50%);
+  }
+}
+
+
+
+/* ~ 991 col-mdサイズに合わせる */
+@media all and (max-width: 991px) {
+  .about-messages{
+    height:600px;
+    margin-left:30%;
+    width:50%;
+    padding:580px 0 50px 0;
+  }
+
+  .flexbox{
+    flex-direction:column;
+  }
+
+  #movie1Wrap{
+    position: relative;
+    width: 100%;
+    height:600px;
+  }
+
+  #movie2Wrap{
+    width:100%;
+    height:600px;
+  }
+
+  .camping{
+    width:100%;
+    height:600px;
+  }
+
+  .camping2{
+    width:100%;
+    height:600px;
+  }
+
+  .reverse{
+    flex-flow: column-reverse nowrap;
+  }
+
+  /* Lifestyle headline */
+  .lifestyle{
+    margin-top: 100px;
+  }
+
+  .container{
+    padding:0;
+    margin:0;
+  }
+
+  .lifestyle-headline-wrap{
+    margin-left:35%;
+    width:100%;
+  }
+
+  .lifestyle-headline-title-p{
+    font-size:20px;
+  }
+
+ /* Lifestyle */
+  .lifestyle-items{
+    margin-top:100px;
+  }
+
+  .lifestyle-item{
+    margin-left:50px;
+    width:260px;
+  }
+
+  .lifestyle-caption{
+    top:0;
+    left:270px;
+  }
+
+  .lifestyle-item:nth-of-type(3) {
+    /* camping */
+    margin-top:0;
+  }
+
+  .lifestyle-item:nth-of-type(4) {
+    /* skiing */
+    margin-top:100px;
+  }
+
+  /*minamiuonuma & nature */
+  .recommend-wrapper{
+    margin-top:100px;
+  }
+
+  .recommend-headline-copy{
+    font-size:16px;
+  }
+
+  .vertical-title{
+    font-size:30px;
+    padding-left:20px;
+  }
+
+  .vertical-copy{
+    padding-left:20px;
+    width:100%;
+  }
+
+  .mg-b150 {
+    margin-bottom: 0;
+}
+
+  .vertical2-title{
+    font-size:30px;
+    padding-left:20px;
+  }
+}
+
+/* ~ 767 col-smサイズに合わせる */
+@media all and (max-width: 767px) {
+  .about-messages{
+    height:0;
+    margin-left:30px;
+    width:60%;
+    padding:500px 0 50px 0;
+  }
+
+  .about-message-wrapper{
+    width:70%;
+  }
+
+  #movie1Wrap{
+    height:550px;
+  }
+
+  #movie2Wrap{
+    height:550px;
+  }
+
+  .camping{
+    height:550px;
+  }
+
+  .camping2{
+    height:550px;
+  }
+
+  /*lifestyle*/
+  .lifestyle-item{
+    margin-left:50px;
+    width:40%;
+    margin-left: 50px;
+  }
+
+  .lifestyle-caption{
+    top:0;
+    left:150px;
+  }
+
+  .lifestyle-item:nth-of-type(1) {
+    /*culture*/
+    margin-left: 0;
+  }
+
+  .lifestyle-item:nth-of-type(3) {
+    /*camping*/
+    margin-left: 0;
+  }
+
+  .lifestyle-item:nth-of-type(5) {
+    /*cloud sea*/
+    margin-left: 0;
+  }
+
+  .lifestyle-caption{
+    left:100%;
+  }
+
+  .vertical-copy{
+    padding-left:20px;
+    width:100%;
+  }
+
+
+  /*minamiuonuma & nature */
+  .vertical-wrapper{
+    margin-top:80px;
+    height:auto;
+  }
+
+  .mg-b150 {
+    margin-bottom: 0;
+}
+
+  .vertical-title{
+    writing-mode: horizontal-tb;
+    line-height:1.5;
+    font-size:20px;
+    padding-left:0px;
+    height:15%;
+  }
+
+  .vertical-copy{
+    margin-top:20px;
+    padding:0;
+  }
+
+  .vertical2-title{
+    font-size:30px;
+    padding-left:20px;
+  }
+
+
+  /*nature & wellbeing*/
+  .vertical2-wrapper{
+    margin-top:80px;
+    height:auto;
+  }
+
+  .vertical2-title{
+    writing-mode: horizontal-tb;
+    line-height:1.5;
+    font-size:20px;
+    padding-left:0px;
+    height:15%;
+  }
+
+  .vertical2-copy{
+    margin-top:20px;
+  }
+
+}
+
+
+/* ~ 575 col-xsサイズに合わせる */
+@media all and (max-width: 575px) {
+  .pd-lr10{
+    padding:0 12px;
+  }
+
+  .message{
+    bottom:100px;
+  }
+  .message p{
+    font-size:18px;
+    margin: 0;
+  }
+
+  .vertical-right{
+    margin: 0;
+  }
+
+  /* about */
+  .about-wrapper{
+    margin-top:50px;
+    margin-bottom:300px;
+    height:auto;
+  }
+
+  .about-messages{
+    height:0;
+    margin-left:10px;
+    width:60%;
+    padding:80% 0 50px 0;
+  }
+
+  .about-message-wrapper{
+    width:95%;
+  }
+
+  .btn{
+    width:80%;
+  }
+
+  #movie1Wrap{
+    height:300px;
+  }
+
+  #movie2Wrap{
+    height:300px;
+  }
+
+  .camping{
+    height:300px;
+  }
+
+  .camping2{
+    height:300px;
+  }
+
+  /*lifestyle wrap*/
+  .lifestyle-headline-wrap{
+    margin-left:0;
+  }
+
+  .lifestyle-headline-title{
+    font-size:30px;
+  }
+
+  .lifestyle-headline-title-p{
+    font-size:16px;
+  }
+
+
+
+  /*lifestyle*/
+  .lifestyle-items{
+    margin-top:50px;
+    padding:0;
+  }
+
+  .lifestyle-item{
+    margin-left:40px;
+    width:40%;
+  }
+
+  .lifestyle-caption{
+    top:0;
+    left:100%;
+    font-size:12px;
+  }
+
+  /* Nature & Us */
+  .recommend-wrapper{
+    margin-top:100px;
+  }
+  .recommend-headline-title{
+    font-size:30px;
+  }
+  .recommend-headline-copy{
+    font-size:16px;
+  }
+
+
+  /*nature & wellbeing */
+
+  .vertical2-title{
+    width:100%;
+    padding-left:10px;
+  }
+
+  .vertical2-copy{
+    padding: 0 10px;
+  }
+
+
+
+  .footer-copy{
+    margin-top:60px;
+  }
+
+
+
+
+}
