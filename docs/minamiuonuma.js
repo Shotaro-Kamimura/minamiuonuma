@@ -23,9 +23,9 @@ $(function() {
     $('#movie1').YTPlayer();
   });
 
-  $(function() {
-      $('#movie2').YTPlayer();
-    });
+$(function() {
+    $('#movie2').YTPlayer();
+  });
 
 
 //scroll
